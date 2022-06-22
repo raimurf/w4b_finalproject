@@ -1,16 +1,27 @@
 * {
     box-sizing: border-box;
-    height: auto;
-
+    padding: 0;
+    margin: 0;
 }
 
+/* body {
+    box-sizing: border-box;
+    margin: 0;
+    height: auto;
+
+} */
+
 .herobanner{
-    background-image: linear-gradient(black, black);
-    height: 30%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    /* background-image: url(imgfolder/jungley.jpg); */
+            height: 200px ;
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:100%;
+            position: sticky;
+            top: 0px;
+    
+    
 
 }
 
@@ -18,29 +29,31 @@
     border:0px;
     padding: 0px;
     text-align: center
-  top: 50%;
-  left: 50%;
-  color: white;
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; float: left; */
+    top:45%;
+    left: 45%;
+    color: white;
+    position: relative;
+    
     
 }
 
 .navbar{
-    border: solid red 2px;
     float: right;
     text-decoration: none;
-    list-style: none;
+    list-style: none; 
+    padding-right: 10px;
+    padding-top: 5px;
+    position: relative; 
+     
 }
 
 .navhome{
     list-style: none;
+    position: relative;
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -49,9 +62,9 @@ a:hover{
 }
 
 .typenav {
-    border: solid red 2px;
     text-decoration: none;
     overflow: auto;
+    position: relative;
 }
 
 .catagories {
@@ -65,11 +78,12 @@ a:hover{
 }
 
 .howto{
-    
+    color: white;
+    position: relative;
 }
 
 .why{
-
+    
 }
 
 .footerlist{
