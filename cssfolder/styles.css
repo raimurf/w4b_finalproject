@@ -18,7 +18,7 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size:100%;
-            position: sticky;
+            position: relative;
             top: 0px;
     
     
@@ -49,7 +49,7 @@
 
 .navhome{
     list-style: none;
-    position: relative;
+    position: sticky;
 }
 
 a {
@@ -84,15 +84,6 @@ a:hover{
     padding: 5px;
     
 }
-.howto{
-    color: white;
-    /* position: relative; */
-    border:solid black 5px;
-}
-
-.why{
-    color: white;
-}
 
 .subheading{
     padding: 5px;
@@ -109,13 +100,14 @@ a:hover{
 .footer{
     text-align: center;
     margin-top: ;
+    
 }
 
 .footerlist{
     color: white;
     float: left;
     width: 33.333333333333333%;
-    
+    height: 500px;
 }
 
 .black{
@@ -130,3 +122,31 @@ a:hover{
     border: solid black 50px;
 }
 
+.demo{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    
+}
+.leftside{
+    background-color:black;
+    float: left;
+    width: 20%;
+    
+    /* flex-basis: 33%; */
+}
+
+.middle{
+    background-color: black;
+    width: 60%;
+    /* flex-basis: 33%; */
+    color: white;
+}
+
+.rightside{
+    
+    background-color: black;
+    width:20%;
+    float:right;
+    /* flex-basis: 33%; */
+}
