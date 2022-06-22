@@ -53,7 +53,7 @@
 }
 
 a {
-    color: white;
+    color: greenyellow;
     text-decoration: none;
 }
 
@@ -64,31 +64,69 @@ a:hover{
 .typenav {
     text-decoration: none;
     overflow: auto;
-    position: relative;
+    position: sticky;
+    text-align: center;
+    
 }
 
 .catagories {
+    background-color: black;
     list-style: none;
     flex: auto;
-    border: solid green 2px;
+    border: 0;
     float: left;
     width: 11.11111111111111%;
     text-decoration: none;
     color: black;
 }
-
+.pagecontent{
+    text-align:center;
+    padding: 5px;
+    
+}
 .howto{
     color: white;
-    position: relative;
+    /* position: relative; */
+    border:solid black 5px;
 }
 
 .why{
+    color: white;
+}
+
+.subheading{
+    padding: 5px;
+    border:solid black 5px;
     
 }
 
+.paragraph{
+    padding: 5px;
+    border:solid black 5px;
+
+}
+
+.footer{
+    text-align: center;
+    margin-top: ;
+}
+
 .footerlist{
-    
-    border: solid red 2px;
+    color: white;
     float: left;
+    width: 33.333333333333333%;
+    
+}
+
+.black{
+    background-color: black;
+}
+
+.aboutfooter{
+    list-style: none;
+}
+
+.invisible{
+    border: solid black 50px;
 }
 
