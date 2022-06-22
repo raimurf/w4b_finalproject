@@ -28,13 +28,16 @@
 .herotext{
     border:0px;
     padding: 0px;
-    text-align: center
-    top:45%;
-    left: 45%;
-    color: white;
-    position: relative;
-    
-    
+    text-align: center;
+    /* top:35%; */
+    left: 30%;
+    color: #D9D7BA;
+    position: absolute;
+}
+
+.logo{
+    width: 600px;
+    height: 250px;
 }
 
 .navbar{
@@ -53,12 +56,12 @@
 }
 
 a {
-    color: greenyellow;
+    color: #BDBF75;
     text-decoration: none;
 }
 
 a:hover{
-    color:green;
+    color:#4177A6;
 }
 
 .typenav {
@@ -70,30 +73,59 @@ a:hover{
 }
 
 .catagories {
-    background-color: black;
+    background-color: #142624;
     list-style: none;
     flex: auto;
     border: 0;
     float: left;
     width: 11.11111111111111%;
     text-decoration: none;
-    color: black;
+    color: #142624;
 }
-.pagecontent{
+
+/* .pagecontent{
     text-align:center;
     padding: 5px;
     
+} */
+.demo{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    
+}
+.leftside{
+    background-color:#142624;
+    float: left;
+    width: 20%;
+    
+    /* flex-basis: 33%; */
+}
+
+.middle{
+    background-color:#142624 ;
+    width: 60%;
+    /* flex-basis: 33%; */
+    color: #D9D7BA;
+}
+
+.rightside{
+    
+    background-color:#142624;
+    width:20%;
+    float:right;
+    /* flex-basis: 33%; */
 }
 
 .subheading{
     padding: 5px;
-    border:solid black 5px;
+    border:solid #142624 5px;
     
 }
 
 .paragraph{
     padding: 5px;
-    border:solid black 5px;
+    border:solid #142624 5px;
 
 }
 
@@ -104,14 +136,14 @@ a:hover{
 }
 
 .footerlist{
-    color: white;
+    color: #BDBF75;
     float: left;
     width: 33.333333333333333%;
     height: 500px;
 }
 
 .black{
-    background-color: black;
+    background-color: #142624;
 }
 
 .aboutfooter{
@@ -119,34 +151,7 @@ a:hover{
 }
 
 .invisible{
-    border: solid black 50px;
+    border: solid #142624 50px;
 }
 
-.demo{
-    display: flex;
-    flex-wrap: wrap;
-    height: 300px;
-    
-}
-.leftside{
-    background-color:black;
-    float: left;
-    width: 20%;
-    
-    /* flex-basis: 33%; */
-}
 
-.middle{
-    background-color: black;
-    width: 60%;
-    /* flex-basis: 33%; */
-    color: white;
-}
-
-.rightside{
-    
-    background-color: black;
-    width:20%;
-    float:right;
-    /* flex-basis: 33%; */
-}
