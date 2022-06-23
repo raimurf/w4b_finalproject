@@ -76,7 +76,9 @@ a:hover{
     overflow: auto;
     position: sticky;
     text-align: center;
-    padding: 0;
+    padding: 0px;
+    border-top: solid #012619 5px;
+    border-bottom: solid #012619 5px;
     
 }
 
@@ -91,56 +93,36 @@ a:hover{
     color: #142624;
 }
 
-/* .pagecontent{
-    text-align:center;
-    padding: 5px;
-    
-} */
-.demo{
-    display: flex;
+.pagecontent1{
     flex-wrap: wrap;
-    height: 600px;
-    
-}
-.leftside{
-    background-color:#142624;
-    float: left;
-    width: 20%;
-    
-    /* flex-basis: 33%; */
-}
-
-.middle{
-    background-color:#142624 ;
-    width: 60%;
-    /* flex-basis: 33%; */
+    width: 100%;
+    text-align: center;
+    position: relative;
+    background-color: #142624;
     color: #D9D7BA;
-}
+    padding: 50px;
 
-.rightside{
-    
-    background-color:#142624;
-    width:20%;
-    float:right;
-    /* flex-basis: 33%; */
 }
 
 .subheading{
-    padding: 5px;
-    border:solid #142624 5px;
-    
+    text-align: center;
+    position: relative ;
+    left: ;
+
 }
-
-.paragraph{
-    padding: 5px;
-    border:solid #142624 5px;
-
+p {
+    width: 900px;
+    text-align: center;
+    position: relative;
+    left: 23%;
+    padding: 25px;
 }
 
 .footer{
     text-align: center;
     overflow: auto;
     position: relative;
+    border-top: solid #012619 5px;
     
 }
 
