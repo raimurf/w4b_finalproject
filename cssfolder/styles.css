@@ -43,6 +43,7 @@
 .logo{
     width: 800px;
     height: 300px;
+    position: relative;
 }
 
 .navbar{
@@ -75,6 +76,7 @@ a:hover{
     overflow: auto;
     position: sticky;
     text-align: center;
+    padding: 0;
     
 }
 
