@@ -4,9 +4,6 @@
     margin: 0;
 }
 
-.html{
-    --primary-color:#142624;
-}
 .herobanner{
             height: 200px ;
             width: 100%;
@@ -87,7 +84,7 @@ a:hover{
     float: left;
     width: 11.11111111111111%;
     text-decoration: none;
-    /* color: #142624; */
+    
     font-size: 24px;
 }
 
@@ -96,8 +93,6 @@ a:hover{
     color:#4177A6;
     font-size: 64px;
     position: absolute;
-    /* float: left; */
-    /* height: 500px; */
     z-index: 1;
     padding: 50px;
 }
@@ -107,8 +102,6 @@ a:hover{
     color:#4177A6;
     font-size: 32px;
     position: relative;
-    /* float: left; */
-    /* height: 500px; */
     z-index: 1;
     padding: 50px;
     top: 250px;
@@ -121,7 +114,6 @@ a:hover{
     text-align: center;
     position: relative;
     bottom: 210px;
-    /* left: 25%; */
     background-color: #142624;
     color: #D9D7BA;
     padding: 50px;

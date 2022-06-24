@@ -2,12 +2,10 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* --primary-color:#142624; */
+    
 }
 
-/* .html{
-    --primary-color:#142624;
-} */
+
 .herobanner{
             height: 200px ;
             width: 100%;
@@ -87,41 +85,16 @@ a:hover{
     float: left;
     width: 11.11111111111111%;
     text-decoration: none;
-    /* color: #142624; */
     font-size: 24px;
 }
 
-/* .statement{
-    background-color: #142624;
-    color:#4177A6;
-    font-size: 64px;
-    position: absolute;
-    /* float: left; */
-    /* height: 500px; */
-    /* z-index: 1;
-    padding: 50px;
-} */
-
-/* .statement2{
-    background-color: #142624;
-    color:#4177A6;
-    font-size: 32px;
-    position: relative; */
-    /* float: left; */
-    /* height: 500px; */
-    /* z-index: 1;
-    padding: 50px;
-    top: 250px;
-    width: 25%;
-} */ 
 
 .pagecontent1{
     flex-wrap: wrap;
     width: 100%;
     text-align: center;
     position: relative;
-    /* bottom: 210px; */
-    /* left: 25%; */
+    
     background-color: #142624;
     color: #D9D7BA;
     padding: 50px;
@@ -132,9 +105,10 @@ a:hover{
     text-align: center;
     position: relative ;
     font-size: 48px;
-    /* left: 20%; */
+    
 
 }
+
 p {
     width: 80ch;
     text-align: center;
@@ -147,13 +121,14 @@ p {
     text-align: justify;
 }
 
-    
+.list{
+    list-style: none;
+}   
 
 .footer{
     text-align: center;
     overflow: auto;
     position: relative;
-    /* bottom: 210px; */
     border-top: solid #012619 5px;
     
 }
