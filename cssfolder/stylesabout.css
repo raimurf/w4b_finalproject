@@ -2,11 +2,12 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /* --primary-color:#142624; */
 }
 
-.html{
+/* .html{
     --primary-color:#142624;
-}
+} */
 .herobanner{
             height: 200px ;
             width: 100%;
@@ -51,11 +52,9 @@
 .navhome{
     list-style: none;
     display: inline-block;
-    position: relative;
     right: 10px;
     padding: 3px;
     font-size: 24px;
-    margin: 5px;
 }
 
 a {
@@ -91,36 +90,36 @@ a:hover{
     font-size: 24px;
 }
 
-.statement{
+/* .statement{
     background-color: #142624;
     color:#4177A6;
     font-size: 64px;
     position: absolute;
     /* float: left; */
     /* height: 500px; */
-    z-index: 1;
+    /* z-index: 1;
     padding: 50px;
-}
+} */
 
-.statement2{
+/* .statement2{
     background-color: #142624;
     color:#4177A6;
     font-size: 32px;
-    position: relative;
+    position: relative; */
     /* float: left; */
     /* height: 500px; */
-    z-index: 1;
+    /* z-index: 1;
     padding: 50px;
     top: 250px;
     width: 25%;
-}
+} */ 
 
 .pagecontent1{
     flex-wrap: wrap;
     width: 100%;
     text-align: center;
     position: relative;
-    bottom: 210px;
+    /* bottom: 210px; */
     /* left: 25%; */
     background-color: #142624;
     color: #D9D7BA;
@@ -132,14 +131,14 @@ a:hover{
     text-align: center;
     position: relative ;
     font-size: 48px;
-    left: 20%;
+    /* left: 20%; */
 
 }
 p {
     width: 80ch;
     text-align: center;
     position: relative;
-    left: 45%;
+    left: 25%;
     padding: 25px;}
 
 .paragraph {
@@ -153,7 +152,7 @@ p {
     text-align: center;
     overflow: auto;
     position: relative;
-    bottom: 210px;
+    /* bottom: 210px; */
     border-top: solid #012619 5px;
     
 }
@@ -178,5 +177,4 @@ p {
 .invisible{
     border: solid #142624 50px;
 }
-
 
