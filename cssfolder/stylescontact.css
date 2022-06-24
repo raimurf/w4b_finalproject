@@ -16,9 +16,6 @@
             background-size:100%;
             position: relative;
             top: 0px;
-    
-    
-
 }
 
 .herotext{
@@ -28,7 +25,6 @@
     
     
     color: #D9D7BA;
-
 }
 
 .logo{
@@ -65,6 +61,7 @@ a {
 
 a:hover{
     color:#4177A6;
+    
     
 }
 
@@ -132,9 +129,41 @@ a:hover{
     text-align: center;
     position: relative ;
     font-size: 48px;
+    padding: 10px;
     /* left: 20%; */
 
 }
+
+/* .form{
+    background-color: #D9D7BA;
+} */
+
+.forminput{
+    background-color: #D9D7BA;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+label{
+    display: block;
+}
+
+.submitform{
+    background-color: #D9D7BA ;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+
+button:hover{
+    background-color: #4177A6;
+}
+
 p {
     width: 80ch;
     text-align: center;

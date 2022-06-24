@@ -55,6 +55,7 @@
     right: 10px;
     padding: 3px;
     font-size: 24px;
+    margin: 5px;
 }
 
 a {
@@ -177,4 +178,3 @@ p {
 .invisible{
     border: solid #142624 50px;
 }
-
