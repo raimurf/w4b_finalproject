@@ -4,15 +4,7 @@
     margin: 0;
 }
 
-/* body {
-    box-sizing: border-box;
-    margin: 0;
-    height: auto;
-
-} */
-
 .herobanner{
-    /* background-image: url(imgfolder/jungley.jpg); */
             height: 200px ;
             width: 100%;
             background-position: center;
@@ -32,11 +24,6 @@
     
     
     color: #D9D7BA;
-    position: relative;
-    top: -50px;
-    left:0;
-    bottom: 0;
-    right: 0;
 
 }
 
@@ -44,6 +31,7 @@
     width: 800px;
     height: 300px;
     position: relative;
+    bottom: 25px;
 }
 
 .navbar{
@@ -58,8 +46,10 @@
 
 .navhome{
     list-style: none;
-    position: sticky;
+    position: relative;
+    right: 10px;
     padding: 3px;
+    font-size: 24px;
 }
 
 a {
@@ -69,6 +59,7 @@ a {
 
 a:hover{
     color:#4177A6;
+    
 }
 
 .typenav {
@@ -91,6 +82,7 @@ a:hover{
     width: 11.11111111111111%;
     text-decoration: none;
     color: #142624;
+    font-size: 24px;
 }
 
 .pagecontent1{
@@ -107,7 +99,7 @@ a:hover{
 .subheading{
     text-align: center;
     position: relative ;
-    left: ;
+    font-size: 48px;
 
 }
 p {
@@ -115,8 +107,14 @@ p {
     text-align: center;
     position: relative;
     left: 23%;
-    padding: 25px;
+    padding: 25px;}
+
+.paragraph {
+    font-size: 20px;
+    text-align: justify;
 }
+
+    
 
 .footer{
     text-align: center;
@@ -131,6 +129,8 @@ p {
     float: left;
     width: 33.333333333333333%;
     height: 500px;
+    padding: 10px;
+    font-size: 18px;
 }
 
 .black{
